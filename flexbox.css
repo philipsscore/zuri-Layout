@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body
+{
+background-color: aliceblue;
+font-family: Big Shoulders Display, Lexend Deca;
+min-height: 100vh;
+
+}
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+    color: white;
+    margin-top: 10%;
+    font-size: 15px;
+
+}
+
+
+.leftdiv{
+background-color: #e38826;
+padding: 3em;
+height: 100%;
+border-radius: 10px 0px 0px 10px;
+
+}
+.centerdiv{
+    background-color:#006970 ;
+    padding: 3em;
+    height: 100%;
+}
+
+.rightdiv{
+    background-color: #004241;
+    padding: 3em;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Big Shoulders Display, Lexend Deca;
+    letter-spacing: -1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+p{
+  text-align: left;  
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+.img1{
+    border: 50px;
+}
+.button1{
+    text-align: center;
+    background-color: white;
+    color: #e38826;
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 30px;
+     
+}
+.button2{
+    text-align: center;
+    background-color: white;
+    color: #006970;
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 30px;
+  
+}
+.button3{
+    text-align: center;
+    background-color: white;
+    color: #004241;
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 30px;
+   
+}
